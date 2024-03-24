@@ -1,0 +1,22 @@
+.mydesign1
+{
+	color:blue;
+	background-color:silver;
+	text-align: center;
+	text-decoration: underline;
+	padding:25px 25px 25px 25px;
+}
+.mydesign2
+{
+	color:purple;
+	border: 2px dotted;
+	margin: 25px 25px 25px 25px;
+	font-style: italic;
+}
+.mydesign3
+{
+	color:olive;
+	border: 2px solid;
+	padding:25px 25px 25px 25px;
+	font-family: monospace;
+}

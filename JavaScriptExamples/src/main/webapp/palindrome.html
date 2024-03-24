@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Palindrome</title>
+<script type="text/javascript">
+function palindromeFun()
+{
+	var numInput=document.getElementById("numInput").value;
+	var temp,i,rem,rev=0;
+	temp=numInput;
+	while(temp>0)
+		{
+		rem=parseInt(temp%10);
+		rev=rev*10+rem;
+		temp=parseInt(temp/10);
+		}
+	var palindromeOutput;
+	if(rev==numInput)
+		{
+		palindromeOutput="Palindrome";
+		}
+	else
+		{
+		palindromeOutput="Not a palindrome"
+		}
+	alert(palindromeOutput);
+	
+	/*var numInput=document.getElementById("numInput").value;
+	const len=numInput.length;
+	let palindromeOutput;
+	for(let i=0;i<=len/2;i++)
+		{
+		if(numInput[i]!=numInput[len-1-i])
+			{
+			palindromeOutput="Not a palindrome";
+			break;
+			}
+		}
+	if(i===len/2)
+		{
+		palindromeOutput="Its a palindrome";
+		}
+	alert(palindromeOutput);*/
+}
+</script>
+</head>
+<body>
+<form>
+<label>Enter the number</label>
+<input type="text" id="numInput" required/>
+<br><br>
+<!-- <label>Output</label>
+<input type="text" id="palindromeOp" readonly/> -->
+<button type="button" onclick="palindromeFun()">Convert</button>
+</form>
+</body>
+</html>

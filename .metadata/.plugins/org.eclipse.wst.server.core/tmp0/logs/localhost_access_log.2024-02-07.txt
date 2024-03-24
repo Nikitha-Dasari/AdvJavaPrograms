@@ -1,0 +1,5 @@
+127.0.0.1 - - [07/Feb/2024:06:53:50 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [07/Feb/2024:06:53:52 +0530] "GET /FullNameApp/ HTTP/1.1" 404 767
+0:0:0:0:0:0:0:1 - - [07/Feb/2024:06:53:52 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [07/Feb/2024:06:53:58 +0530] "GET /FullNameApp/FullName.html HTTP/1.1" 200 634
+0:0:0:0:0:0:0:1 - - [07/Feb/2024:06:54:20 +0530] "GET /FullNameApp/FullNameServlet?firstname=sachin&middlename=ramesh&lastname=tendulkar HTTP/1.1" 200 62

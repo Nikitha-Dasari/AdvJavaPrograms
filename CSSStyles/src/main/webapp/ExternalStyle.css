@@ -1,0 +1,27 @@
+@charset "ISO-8859-1";
+h1
+{
+	color:green;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 25px;
+	font-family:cursive;
+	font-style: italic;
+}
+.mydesign{
+	color:teal;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 25px;
+	font-family:cursive;
+	font-style: italic;
+}
+#yourdesign
+{
+	color:olive;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 25px;
+	font-family:cursive;
+	font-style: italic;
+}

@@ -1,0 +1,5 @@
+127.0.0.1 - - [03/Feb/2024:12:23:59 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [03/Feb/2024:12:24:00 +0530] "GET /HelloWorldApplication/ HTTP/1.1" 404 777
+0:0:0:0:0:0:0:1 - - [03/Feb/2024:12:24:00 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [03/Feb/2024:12:24:15 +0530] "GET /HelloWorldApplication/ HTTP/1.1" 404 777
+0:0:0:0:0:0:0:1 - - [03/Feb/2024:12:24:19 +0530] "GET /HelloWorldApplication/test HTTP/1.1" 200 50

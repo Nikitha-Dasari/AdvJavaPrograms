@@ -1,0 +1,15 @@
+@charset "ISO-8859-1";
+#heading{
+	color:#ff0080;
+	text-align: center;
+	border:2px solid;
+	margin:25px 50px 25px 50px;
+	background-color: yellow;
+}
+.mydesign{
+	color:#800080;
+	text-align: center;
+	border:5px dotted;
+	font-size:50px;
+	padding:25px 50px 25px 50px;
+}

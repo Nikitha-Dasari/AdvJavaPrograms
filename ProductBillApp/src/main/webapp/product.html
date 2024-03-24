@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Product Bill Calculations</title>
+</head>
+<body bgcolor="beige">
+	<h2>Product Details</h2>
+	<form method="get" action="./ProductServlet">
+	
+	<label>Product ID: </label>
+	<input type="number" name="proId" placeholder="enter id" required/>
+	
+	<br><br>
+	
+	
+	<label>Product Name: </label>
+	<input type="text" name="proName" placeholder="enter name" required/>
+	
+	<br><br>
+	
+	
+	<label>Product Price: </label>
+	<input type="number" name="proPrice" placeholder="enter price" required/>
+	
+	<br><br>
+	
+	
+	<label>Product Quantity: </label>
+	<input type="number" name="proQuantity" min="2" max="10" 
+	placeholder="enter quantity" required/>
+	
+	<br><br>
+	
+	<input type="submit" value="Product Invoice"/>
+	
+	</form>
+</body>
+</html>
